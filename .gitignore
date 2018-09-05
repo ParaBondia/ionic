@@ -1,3 +1,5 @@
 myApp/.editorconfig
 myApp/resources/android/
 myApp/resources/ios/
+login-app/resources/ios/
+login-app/resources/android/
