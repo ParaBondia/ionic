@@ -1,41 +1,72 @@
-<ion-card>
-    <ion-card-header>
-      Header
-    </ion-card-header>
+<ion-header>
+  <ion-navbar align-title="center" color="primary">
+    <ion-buttons left>
+        <button ion-button icon-only clear>
+          <ion-icon md="md-arrow-back"></ion-icon>
+        </button>
+    </ion-buttons>
+    
+    <ion-title text-center>Login</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only><ion-icon name="settings"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<div><ion-card>
+    
     <ion-card-content>
       The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
 
      <P>WELCOME</P>
 
-
-    </ion-card-content>
-
-    
-  </ion-card>
-
-  <ion-list>
-
     <ion-list>
 
     <ion-item>
+      <pre><button ion-button icon-only clear>
+        <ion-icon name="mail"></ion-icon></button></pre> 
       <ion-label fixed>Username</ion-label>
       <ion-input type="text" value=""></ion-input>
     </ion-item>
   
+    
     <ion-item>
+       <ion-buttons left>
+          <button ion-button icon-only clear>
+            <ion-icon name="mail"></ion-icon>
+          </button>
+      </ion-buttons>
       <ion-label fixed>Password</ion-label>
       <ion-input type="password" maxlength="10" minlength="4" pattern="^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]+$"  message= 'Your username must contain only numbers and letters.'placeholder="Password (required)" ></ion-input>
     </ion-item>
+  
 
-
-
-
-    <ion-item>
-      <ion-label fixed>Password</ion-label>
-        <ion-input type="number" max="10000" ></ion-input> 
-      </ion-item>
-
-      <button ion-button margin="padding"  color="secondary" clear>Register</button>
+      <ion-row>
+        <ion-col style="text-align:center">
+        <button  ion-button default color="assertive" block >Login</button></ion-col></ion-row>
   </ion-list>
-  
-  
+  <div text-center>
+    <h6><button ion-button style=color:rgb(177,179,175) clear >Forgot password</button></h6></div>
+
+
+</ion-card-content>
+</ion-card></div> 
+
+
+
+  <div text-center>
+    <button ion-button icon-start>
+       <ion-icon name="logo-facebook"></ion-icon>
+       sign in
+     </button>
+     <button ion-button style=background:deepskyblue icon-start>
+         <ion-icon name="logo-twitter"></ion-icon>
+         sign in
+       </button></div>
+     
+       <ion-buttons left>
+          <button ion-button icon-only clear>
+            <ion-icon name="mail"></ion-icon>
+          </button>
+      </ion-buttons>
+      
